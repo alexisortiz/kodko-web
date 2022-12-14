@@ -1,6 +1,6 @@
 import './App.css'
+import ContentBody from './Components/ContentBody'
 import HeaderComponent from './Components/header'
-import ExampleHeaders from './Components/Headers'
 import Hero from './Components/Hero'
 
 function App() {
@@ -8,8 +8,7 @@ function App() {
     <>
       <HeaderComponent />
       <div className="App">
-
-        <ExampleHeaders />
+        <ContentBody />
 
         <Hero />
       </div>

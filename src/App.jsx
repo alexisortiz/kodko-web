@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import './App.css'
 import HeaderComponent from './Components/header'
 import ExampleHeaders from './Components/Headers'
 import Hero from './Components/Hero'
@@ -8,7 +8,9 @@ function App() {
     <>
       <HeaderComponent />
       <div className="App">
+
         <ExampleHeaders />
+
         <Hero />
       </div>
     </>

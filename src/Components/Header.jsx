@@ -1,23 +1,5 @@
-// import React, { Component } from 'react'
 import logo from '../assets/logo.png'
-
-// class HeaderComponent extends Component {
-//   render() {
-//     return (
-//       <div className="Header">
-//         <a href="https://vitejs.dev" target="_blank">
-//           <img src={logo} className="logo" alt="Vite logo" />
-//         </a>
-//         {/* <h2>kodko.cl__</h2> */}
-//       </div>
-//     )
-//   }
-// }
-
-// export default HeaderComponent
-
-import { Fragment } from 'react'
-import { Disclosure, Menu, Transition } from '@headlessui/react'
+import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 import { EnvelopeIcon } from '@heroicons/react/20/solid'

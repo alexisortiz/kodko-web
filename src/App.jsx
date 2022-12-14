@@ -1,12 +1,12 @@
 import './App.css'
 import ContentBody from './Components/ContentBody'
-import HeaderComponent from './Components/header'
+import Header from './Components/header'
 import Hero from './Components/Hero'
 
 function App() {
   return (
     <>
-      <HeaderComponent />
+      <Header />
       <div className="App">
         <ContentBody />
 
